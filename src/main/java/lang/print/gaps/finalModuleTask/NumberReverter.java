@@ -5,6 +5,6 @@ public class NumberReverter {
         int first = number % 10;
         int second = number % 100 / 10;
         int third = number / 100;
-        System.out.println(first +  second + third);
+        System.out.println(first+""+second+""+third);
     }
 }
